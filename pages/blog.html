@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>Blog</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!--CSS-->
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+
+<body class="bg-dark">
+  <header>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand text-dark" href="#">María Florencia Jorrat</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./cv.html">CV</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <aside>
+
+  </aside>
+  <main>
+    <section class="carousel mb-3">
+      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../img/tecnologia.png" class="mx-auto d-block img-fluid" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../img/arte.png" class="mx-auto d-block img-fluid" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- Contenido del Blog -->
+    <section class="container my-5" style="text-align: justify;">
+      <div class="row">
+        <main class="col-lg-8">
+          <article id="vs" class="card mb-4">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="../img/vs.png" class="card-img-top rounded-start" alt="Imagen del artículo 1"
+                  style="max-width: 200px;">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h2 id="articulo1" class="card-title">Windows vs Linux para edición</h2>
+                  <p class="card-text">Windows y Linux son dos sistemas operativos que ofrecen diferentes opciones para
+                    editar documentos, imágenes, vídeos y otros tipos de archivos. Algunas de estas opciones son
+                    programas de código abierto, que se pueden descargar y usar de forma gratuita, mientras que otras
+                    son de pago o requieren una licencia.
+                    <br><br>
+                    Entre las herramientas de edición más populares para <strong>Windows</strong> se encuentran:
+                    Microsoft Office: es la suite ofimática más utilizada en el mundo, que incluye programas como Word,
+                    Excel, PowerPoint y Outlook. Permite crear y editar documentos de texto, hojas de cálculo,
+                    presentaciones y correos electrónicos. Tiene un costo anual o mensual según el plan elegido.
+                    Adobe Photoshop: es el programa de edición de imágenes más famoso, que permite retocar, recortar,
+                    aplicar filtros y efectos, crear collages y diseñar gráficos. Tiene un costo mensual según el plan
+                    elegido.
+                    Adobe Premiere: es un programa de edición de vídeo profesional, que permite cortar, mezclar, añadir
+                    transiciones, títulos, efectos especiales y audio a los vídeos. Tiene un costo mensual según el plan
+                    elegido.
+                    <br><br>
+                    Entre las herramientas de edición más populares para <strong>Linux</strong> se encuentran:
+                    LibreOffice: es la suite ofimática de código abierto más conocida, que incluye programas como
+                    Writer, Calc, Impress y Thunderbird. Permite crear y editar documentos de texto, hojas de cálculo,
+                    presentaciones y correos electrónicos. Es gratuita y compatible con Windows y macOS4.
+                    GIMP: es el programa de edición de imágenes de código abierto más usado, que permite realizar las
+                    mismas funciones que Photoshop. Es gratuito y compatible con Windows y macOS.
+                    Kdenlive: es un programa de edición de vídeo de código abierto, que permite realizar montajes y
+                    ediciones de vídeos con una gran variedad de herramientas y efectos. Es gratuito y compatible con
+                    Windows y macOS.</p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article id="linux" class="card mb-4">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="../img/linux.png" class="card-img-top rounded-start" alt="Imagen del artículo 1"
+                  style="max-width: 200px;">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h2 id="articulo1" class="card-title">Linux</h2>
+                  <p class="card-text"><strong>Linux</strong> es un sistema operativo de tipo Unix que se compone de software libre y de
+                    código abierto. Linux nació de la combinación de varios proyectos, entre los que destacan el
+                    proyecto GNU, iniciado por Richard Stallman en 1983, y el núcleo Linux, creado por Linus Torvalds en
+                    1991. El objetivo de Linux era crear un sistema operativo compatible con UNIX, pero que funcionara
+                    en cualquier ordenador y que fuera gratuito y modificable por los usuarios.
+                    <br><br>
+                    Linux ofrece varias ventajas sobre otros sistemas operativos, como su seguridad, estabilidad,
+                    escalabilidad, personalización y bajo coste. Linux también es compatible con una gran variedad de
+                    plataformas y dispositivos, desde ordenadores personales hasta servidores, pasando por teléfonos
+                    móviles, tabletas, consolas y sistemas embebidos. Además, Linux cuenta con una amplia comunidad de
+                    desarrolladores y usuarios que contribuyen a su mejora y soporte.
+                    <br><br>
+                    Linux se distribuye en forma de paquetes llamados distribuciones o distros, que contienen el núcleo
+                    Linux, los programas del proyecto GNU y otras aplicaciones de terceros. Cada distribución tiene sus
+                    propias características y objetivos, adaptándose a las necesidades de diferentes tipos de usuarios.
+                    Algunas de las distribuciones más populares son Debian, Ubuntu, Red Hat y SUSE.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article id="windows" class="card mb-4">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="../img/windows.png" class="card-img-top rounded-start" alt="Imagen del artículo 1"
+                  style="max-width: 200px;">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h2 id="articulo1" class="card-title">Windows</h2>
+                  <p class="card-text"><strong>Windows</strong> es un sistema operativo desarrollado por Microsoft que se ejecuta en
+                    computadoras personales, servidores y dispositivos integrados. Windows se lanzó por primera vez en
+                    1985 como una interfaz gráfica de usuario basada en MS-DOS, el sistema operativo de disco de
+                    Microsoft. Desde entonces, Windows ha evolucionado y se ha diversificado en varias familias, cada
+                    una adaptada a un sector específico de la industria informática. Por ejemplo, Windows NT para
+                    consumidores, Windows Server para servidores y Windows IoT para sistemas integrados.
+                    <br> <br>
+                    Windows ofrece a los usuarios una experiencia de escritorio virtual, donde pueden abrir ventanas
+                    gráficas que muestran el contenido de carpetas y archivos con el clic de un botón del mouse, en
+                    lugar de escribir comandos y rutas de directorio en un símbolo del sistema. Windows también incluye
+                    varias aplicaciones integradas, como el navegador web Internet Explorer, el reproductor multimedia
+                    Windows Media Player y la tienda de aplicaciones Microsoft Store. Además, Windows es compatible con
+                    una gran variedad de software de terceros que se puede instalar y ejecutar en el sistema operativo.
+                    <br> <br>
+                    Windows es el sistema operativo más utilizado en el mundo, con una cuota de mercado de
+                    aproximadamente el 90 por ciento. La versión más reciente de Windows es Windows 11, que se lanzó en
+                    2021 y presenta una interfaz renovada, un mejor rendimiento y nuevas funciones centradas en mejorar
+                    la productividad y el trabajo híbrido de los usuarios finales.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Agregar más artículos aquí -->
+        </main>
+
+        <aside class="col-lg-4">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h5 class="card-title">Categorías</h5>
+              <ul class="list-unstyled">
+                <li><a href="#vs">Windows vs Linux</a></li>
+                <li><a href="#linux">Linux</a></li>
+                <li><a href="#windows">Windows</a></li>
+                <!-- Agregar más categorías aquí -->
+              </ul>
+            </div>
+          </div>
+          <!-- Agregar más elementos en la barra lateral aquí -->
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <!-- Pie de página -->
+  <footer class="bg-dark text-white text-center py-3 mt-5">
+    <p>Todos los derechos reservados &copy; María Florencia Jorrat</p>
+  </footer>
+
+  <!-- Bootstrap JavaScript -->
+  <script src="../js/bootstrap.bundle.min.js"></script>
+
+  <!-- Script de inicialización del Navbar -->
+  <script>
+    var myNavbar = new bootstrap.Collapse(document.getElementById('navbarSupportedContent'));
+  </script>
+</body>
+
+</html>
