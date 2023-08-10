@@ -40,7 +40,7 @@
 
   </aside>
   <main>
-    <section class="carousel mb-3">
+    <section class="carousel">
       <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -61,9 +61,23 @@
       </div>
     </section>
     <!-- Contenido del Blog -->
-    <section class="container my-5" style="text-align: justify;">
+    <section class="container my-3" style="text-align: justify;">
       <div class="row">
-        <main class="col-lg-8">
+        <aside class="col-lg-2">
+          <div class="card mb-4 bg-transparent">
+            <div class="card-body">
+              <h5 class="card-title text-light">Categorías</h5>
+              <ul class="list-unstyled">
+                <li><a href="#vs">Windows vs Linux</a></li>
+                <li><a href="#linux">Linux</a></li>
+                <li><a href="#windows">Windows</a></li>
+              </ul>
+            </div>
+          </div>
+        </aside>
+
+        <section class="col-lg-10">
+          <div class="row">
           <article id="vs" class="card mb-4">
             <div class="row g-0">
               <div class="col-md-4">
@@ -97,7 +111,8 @@
                     mismas funciones que Photoshop. Es gratuito y compatible con Windows y macOS.
                     Kdenlive: es un programa de edición de vídeo de código abierto, que permite realizar montajes y
                     ediciones de vídeos con una gran variedad de herramientas y efectos. Es gratuito y compatible con
-                    Windows y macOS.</p>
+                    Windows y macOS.
+                  </p>
                 </div>
               </div>
             </div>
@@ -112,7 +127,8 @@
               <div class="col-md-8">
                 <div class="card-body">
                   <h2 id="articulo1" class="card-title">Linux</h2>
-                  <p class="card-text"><strong>Linux</strong> es un sistema operativo de tipo Unix que se compone de software libre y de
+                  <p class="card-text"><strong>Linux</strong> es un sistema operativo de tipo Unix que se compone de
+                    software libre y de
                     código abierto. Linux nació de la combinación de varios proyectos, entre los que destacan el
                     proyecto GNU, iniciado por Richard Stallman en 1983, y el núcleo Linux, creado por Linus Torvalds en
                     1991. El objetivo de Linux era crear un sistema operativo compatible con UNIX, pero que funcionara
@@ -143,7 +159,8 @@
               <div class="col-md-8">
                 <div class="card-body">
                   <h2 id="articulo1" class="card-title">Windows</h2>
-                  <p class="card-text"><strong>Windows</strong> es un sistema operativo desarrollado por Microsoft que se ejecuta en
+                  <p class="card-text"><strong>Windows</strong> es un sistema operativo desarrollado por Microsoft que
+                    se ejecuta en
                     computadoras personales, servidores y dispositivos integrados. Windows se lanzó por primera vez en
                     1985 como una interfaz gráfica de usuario basada en MS-DOS, el sistema operativo de disco de
                     Microsoft. Desde entonces, Windows ha evolucionado y se ha diversificado en varias familias, cada
@@ -166,26 +183,7 @@
               </div>
             </div>
           </article>
-
-          <!-- Agregar más artículos aquí -->
-        </main>
-
-        <aside class="col-lg-4">
-          <div class="card mb-4">
-            <div class="card-body">
-              <h5 class="card-title">Categorías</h5>
-              <ul class="list-unstyled">
-                <li><a href="#vs">Windows vs Linux</a></li>
-                <li><a href="#linux">Linux</a></li>
-                <li><a href="#windows">Windows</a></li>
-                <!-- Agregar más categorías aquí -->
-              </ul>
-            </div>
-          </div>
-          <!-- Agregar más elementos en la barra lateral aquí -->
-        </aside>
-      </div>
-    </section>
+        </section>
   </main>
 
   <!-- Pie de página -->
