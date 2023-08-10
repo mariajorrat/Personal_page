@@ -6,16 +6,15 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <!--CSS-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
 </head>
 
 <body class="bg-dark">
   <header>
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg bg-secondary">
+    <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand text-light" href="#">María Florencia Jorrat</a>
+        <a class="navbar-brand text-dark" href="#">María Florencia Jorrat</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -23,53 +22,53 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active text-light" aria-current="page" href="../index.html">Inicio</a>
+              <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="./pages/blog.html">Blog</a>
+              <a class="nav-link" href="./pages/blog.html">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="./pages/cv.html">CV</a>
+              <a class="nav-link" href="./pages/cv.html">CV</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
   </header>
-  
-  <main class="mt-5">
-    <div id="carouselExample" class="carousel slide">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="../img/unnamed.jpg" class="mx-auto d-block w-20" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="../img/unnamed.jpg" class="mx-auto d-block w-20" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="../img/unnamed.jpg" class="mx-auto d-block w-20" alt="...">
-        </div>
 
+  <main>
+    <section class="bg-primary text-white text-center py-5 mb-5">
+      <h1 class="display-4 opacity-75">Bienvenid@ a mi sitio</h1>
+    </section>
+
+    <section class="text-light"  style="text-align: justify;">
+      <div class="container">
+        <div class="row landing">
+          <div class="col-md-4">
+            <img src="./img/perfil.jpg" alt="Imagen de la landing" class="img-fluid rounded">
+          </div>
+          <div class="col-md-8 mt-1">
+            <h2>¡Hola! Soy Flor</h2>
+            <p class="lead">Apasionada de la tecnología y el arte. <br>
+              Actualmente estoy cursando la tecnicatura en desarrollo de software y trabajo de forma freelance en diseño para social media, UX/UI y desarrollo web. <br>
+              También trabajo ad honorem para la ONG Students For Liberty. Mis pasatiempos son el canto y la fotografía.</p>
+          </div>
+        </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
+    </section>
   </main>
 
-    <!-- Bootstrap JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"></script>
+  <footer class="bg-dark text-white text-center py-3 mt-5">
+    <p>Todos los derechos reservados &copy; María Florencia Jorrat</p>
+  </footer>
 
-    <!-- Script de inicialización del Navbar -->
-    <script>
-        var myNavbar = new bootstrap.Collapse(document.getElementById('navbarSupportedContent'));
-    </script>
+  <!-- Bootstrap JavaScript -->
+  <script src="./js/bootstrap.bundle.min.js"></script>
+
+  <!-- Script de inicialización del Navbar -->
+  <script>
+    var myNavbar = new bootstrap.Collapse(document.getElementById('navbarSupportedContent'));
+  </script>
 </body>
 
 </html>
