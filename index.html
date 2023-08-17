@@ -30,6 +30,11 @@
             <li class="nav-item">
               <a class="nav-link" href="./pages/cv.html">CV</a>
             </li>
+            <li>
+              <div id="google_translate_element" class="mx-3"></div>
+            </li>
+            <li>
+            </li>
           </ul>
         </div>
       </div>
@@ -71,6 +76,15 @@
   <script>
     var myNavbar = new bootstrap.Collapse(document.getElementById('navbarSupportedContent'));
   </script>
+
+  <!-- Traductor -->
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({ pageLanguage: 'es' }, 'google_translate_element');
+    }
+  </script>
+  <script type="text/javascript"
+    src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 
 </html>
