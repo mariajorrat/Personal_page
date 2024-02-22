@@ -1,1 +1,2 @@
-# Basic personal page using Bootstrap
+# Basic personal page
+## HTML, CSS, Bootstrap
