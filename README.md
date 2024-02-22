@@ -1,2 +1,4 @@
-# Basic personal page
-## HTML, CSS, Bootstrap
+# Personal web
+- Basic page
+- Static Page
+- HTML, CSS, Bootstrap
