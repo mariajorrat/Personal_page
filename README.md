@@ -1,4 +1,4 @@
 # Personal website
-- Minimalist page
+- Minimalist
 - Static
 - HTML, CSS, Bootstrap
