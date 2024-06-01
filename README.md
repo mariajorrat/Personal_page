@@ -1,4 +1,5 @@
 # Personal website
 - Minimalist
 - Static
-- HTML, CSS, Bootstrap
+- HTML, CSS, Tailwind
+- Astro
